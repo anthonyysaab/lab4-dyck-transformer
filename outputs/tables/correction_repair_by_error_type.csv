@@ -1,0 +1,11 @@
+split,error_type,rows,repair_dyck_acceptance,repair_original_match,label_exact_match
+test_id,E1_missing_closer,625,0.0,0.0,0.0
+test_id,E2_spurious_opener,625,0.0,0.0,0.0
+test_id,E3_type_mismatch,625,0.1184,0.1184,0.1184
+test_id,E4_premature_close,625,0.4272,0.4272,0.4272
+test_id,no_error,2500,1.0,1.0,1.0
+test_ood,E1_missing_closer,625,0.0,0.0,0.0
+test_ood,E2_spurious_opener,625,0.0,0.0,0.0
+test_ood,E3_type_mismatch,625,0.0016,0.0016,0.0016
+test_ood,E4_premature_close,625,0.224,0.224,0.224
+test_ood,no_error,2500,0.9996,0.9996,0.9996
