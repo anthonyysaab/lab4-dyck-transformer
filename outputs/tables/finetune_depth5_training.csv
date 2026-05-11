@@ -1,0 +1,4 @@
+model,split,epoch,loss,accuracy,macro_f1
+finetuned_depth5,finetune_depth5,1,1.5200718965530395,0.442,0.4317973532754133
+finetuned_depth5,finetune_depth5,2,1.0838119688034058,0.482,0.4133874496623014
+finetuned_depth5,finetune_depth5,3,0.8718639345169067,0.492,0.38065699126092384

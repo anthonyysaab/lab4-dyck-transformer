@@ -1,0 +1,9 @@
+probe,split,rows,r2,mae,accuracy,macro_f1
+cls_depth_regression,probe_test,700,0.5536084175109863,1.0980398654937744,,
+cls_depth_classification,probe_test,700,,,0.3485714285714286,0.33020552818359833
+cls_depth_regression,dev,1000,-0.36711716651916504,0.7744327783584595,,
+cls_depth_classification,dev,1000,,,0.309,0.1823808160401625
+cls_depth_regression,test_id,1000,-0.3446136713027954,0.7879458665847778,,
+cls_depth_classification,test_id,1000,,,0.315,0.18924264748476993
+cls_depth_regression,test_ood,1000,-0.784889817237854,0.9012977480888367,,
+cls_depth_classification,test_ood,1000,,,0.354,0.20341903024839425
