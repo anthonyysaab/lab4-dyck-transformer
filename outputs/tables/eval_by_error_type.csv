@@ -1,0 +1,16 @@
+split,group_column,group_value,rows,gold_valid,gold_invalid,pred_valid,pred_invalid,accuracy,macro_f1,valid_f1,invalid_f1
+dev,error_type,E1_missing_closer,625,0,625,0,625,1.0,1.0,0.0,1.0
+dev,error_type,E2_spurious_opener,625,0,625,0,625,1.0,1.0,0.0,1.0
+dev,error_type,E3_type_mismatch,625,0,625,574,51,0.0816,0.07544378698224852,0.0,0.15088757396449703
+dev,error_type,E4_premature_close,625,0,625,0,625,1.0,1.0,0.0,1.0
+dev,error_type,no_error,2500,2500,0,2455,45,0.982,0.4954591321897074,0.9909182643794148,0.0
+test_id,error_type,E1_missing_closer,625,0,625,0,625,1.0,1.0,0.0,1.0
+test_id,error_type,E2_spurious_opener,625,0,625,0,625,1.0,1.0,0.0,1.0
+test_id,error_type,E3_type_mismatch,625,0,625,583,42,0.0672,0.06296851574212893,0.0,0.12593703148425786
+test_id,error_type,E4_premature_close,625,0,625,0,625,1.0,1.0,0.0,1.0
+test_id,error_type,no_error,2500,2500,0,2455,45,0.982,0.4954591321897074,0.9909182643794148,0.0
+test_ood,error_type,E1_missing_closer,625,0,625,442,183,0.2928,0.2264851485148515,0.0,0.452970297029703
+test_ood,error_type,E2_spurious_opener,625,0,625,449,176,0.2816,0.21972534332084895,0.0,0.4394506866416979
+test_ood,error_type,E3_type_mismatch,625,0,625,378,247,0.3952,0.28325688073394495,0.0,0.5665137614678899
+test_ood,error_type,E4_premature_close,625,0,625,461,164,0.2624,0.20785804816223066,0.0,0.4157160963244613
+test_ood,error_type,no_error,2500,2500,0,1504,996,0.6016,0.3756243756243756,0.7512487512487512,0.0

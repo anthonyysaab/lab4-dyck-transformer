@@ -1,0 +1,5 @@
+split,rows,accuracy,macro_f1,prediction_file,confusion_matrix_file
+train,50000,1.0,1.0,outputs\tables\pda_predictions_train.csv,outputs\tables\pda_confusion_matrix_train.csv
+dev,5000,1.0,1.0,outputs\tables\pda_predictions_dev.csv,outputs\tables\pda_confusion_matrix_dev.csv
+test_id,5000,1.0,1.0,outputs\tables\pda_predictions_test_id.csv,outputs\tables\pda_confusion_matrix_test_id.csv
+test_ood,5000,1.0,1.0,outputs\tables\pda_predictions_test_ood.csv,outputs\tables\pda_confusion_matrix_test_ood.csv

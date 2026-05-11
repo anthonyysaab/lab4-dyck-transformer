@@ -1,0 +1,24 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Jupyter / Quarto
+.ipynb_checkpoints/
+.quarto/
+
+# Model checkpoints
+outputs/checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+*.log
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
